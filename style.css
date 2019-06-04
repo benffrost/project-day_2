@@ -1,0 +1,60 @@
+header{
+  background-color: #1c4587;
+  border: 0.25em solid black;
+  color: white;
+  text-align: center; 
+  padding: 1em 1em 0em;
+  margin: 0em; 
+}
+
+
+footer{
+  background-color: #1c4587;
+  border: 0.25em solid black;
+  color: white;
+  text-align: center; 
+  padding: 1em 1em 0em;
+  margin: 0em; 
+  height: auto;
+}
+
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+.centercolumn {
+  float: left;
+  width: 50%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.side-article{
+  
+  padding: 25% 25%;
+}
+.article {
+  margin: 5% 0%;
+}
+.article-text{
+  margin: 2em;
+}
+.article-title{
+  margin: 0.5em;
+}
+
+hr {
+  color: #cfe2f3;
+  background-color: #cfe2f3;
+  height: 1em;
+  border: 0;
+}
